@@ -67,6 +67,9 @@ struct iop_state {
     uint32_t cop0_r[16];
 
     int p;
+
+    int module_count;
+    struct iop_module *module_list;
 };
 
 /*
